@@ -1,0 +1,63 @@
+ul#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(4 170 109);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li.navb {
+    float: left;
+  }
+  
+  li a.navb {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  li a.navb:hover:not(.active) {
+    background-color: rgb(20, 28, 34);
+  }
+  
+  .active {
+    background-color: rgb(39, 55, 68);
+  }
+
+
+
+h1#greet{
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 43px;
+}
+
+p#nm{
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 62px;
+}
+
+ul#qt{
+    list-style-type: none;
+}
+
+div.active{
+   background-color: white;
+}
+
+
+#prpic{
+    float: left;
+    margin: 50px;
+}
+
+#about{
+    padding: auto;
+    margin: auto;
+}
