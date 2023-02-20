@@ -1,12 +1,14 @@
 *{
   margin: 0;
   padding: 0;
-  border-radius: 0%;
 }
 
 .navbar{
   display: flex;
   background-color: rgb(10,12,14);
+  position: sticky;
+  width: 100%;
+  top: 0;
 }
 
 #nav{
@@ -17,21 +19,25 @@
 
 li.navb{
   margin: 1% 4% 0% 1%;
+  padding: 0%;
   align-self: center;
 }
 
 a.navb{
+  text-decoration: none;
   font-family: Georgia, serif;
-  color: #4976d8;
+  color: white;
+  text-align: center;
 }
 
 a.navb:hover{
   text-decoration: none;
-  color: ;
+  color: black;
 }
 
 .logo{
   width: 50%;
+  align-self: flex-end;
 }
 
 .logo img{
@@ -40,8 +46,14 @@ a.navb:hover{
   align-self: center;
 }
 
+.background{
+  background: url('Images/nv.jpg')
+}
 .background1{
-  background: rgba(0,0,0,0.7) url('Images\background1.jpeg');
+  background: rgba(0,0,0,0.7) url('Images/background.jpg');
   background-size: cover;
-  background-blend-mode: darken;
+}
+
+#home{
+  height: 100vh;
 }
