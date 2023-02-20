@@ -113,5 +113,31 @@ a.navb:hover{
 
 #about{
   display: flex;
-  height: 100vh;
+  height: 80vh;
+}
+
+#prpic{
+  border-radius: 50%;
+  width: 41%;
+  height: 81%;
+  align-self: center;
+  padding: 1%;
+}
+
+#abtinfo{
+  padding: 2.5% 1% 0% 4%;
+}
+
+#hd{
+  padding: 0% 0% 1%;
+  text-align: center;
+  font-family: cursive;
+  font-size: 400%;
+}
+
+#info{
+  padding: 0%;
+  text-align: justify;
+  font-family: cursive;
+  font-size: 120%;
 }
