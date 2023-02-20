@@ -143,7 +143,7 @@ a.navb:hover{
 }
 
 .background3{
-  background: rgba(0,0,0,0.7) url('Images/edubckg7.jpg');
+  background: rgba(0,0,0,0.7) url('Images/edubckg.jpg');
   background-size: cover;
 }
 
@@ -174,3 +174,28 @@ a.navb:hover{
   text-decoration: none;
 }
 
+.background4{
+  background: rgba(0,0,0,0.7) url('Images/img.jpg');
+  background-size: cover;
+}
+
+#skill{
+  height: 60vh;
+}
+
+.skhd{
+  font-family: cursive;
+  font-size: 230%;
+  padding: 0%;
+}
+
+.skli{
+  font-family: cursive;
+  font-size: 130%;
+  padding: 1% 0% 1% 2%;
+  list-style-type: disc;
+}
+
+a.hkrlink{
+  text-decoration: none;
+}
