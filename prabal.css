@@ -141,3 +141,36 @@ a.navb:hover{
   font-family: cursive;
   font-size: 120%;
 }
+
+.background3{
+  background: rgba(0,0,0,0.7) url('Images/edubckg7.jpg');
+  background-size: cover;
+}
+
+#edu{
+  height: 94vh;
+}
+
+#head{
+  font-family: cursive;
+  font-size: 400%;
+  padding: 1% 0% 1% 0%;
+}
+
+.eduhd{
+  font-family: cursive;
+  font-size: 230%;
+  padding: 0%;
+}
+
+.eduli{
+  font-family: cursive;
+  font-size: 130%;
+  padding: 1% 0% 1% 2%;
+  list-style-type: disc;
+}
+
+.klslink{
+  text-decoration: none;
+}
+
