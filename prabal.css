@@ -9,6 +9,7 @@
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 1;
 }
 
 #nav{
@@ -103,4 +104,14 @@ a.navb:hover{
   to {
     opacity: 1; 
   }
+}
+
+.background2{
+  background: rgba(0,0,0,0.7) url('Images/abtbckg.jpg');
+  background-size: cover;
+}
+
+#about{
+  display: flex;
+  height: 100vh;
 }
