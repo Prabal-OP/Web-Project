@@ -175,7 +175,7 @@ a.navb:hover{
 }
 
 .background4{
-  background: rgba(0,0,0,0.7) url('Images/img.jpg');
+  background: rgba(0,0,0,0.7) url('Images/skbckg.jpg');
   background-size: cover;
 }
 
@@ -196,6 +196,50 @@ a.navb:hover{
   list-style-type: disc;
 }
 
-a.hkrlink{
+.hkrlink{
   text-decoration: none;
+}
+
+#contact{
+  height: 50vh;
+}
+
+#cnthd{
+  text-align: center;
+  font-family: cursive;
+  font-size: 300%;
+}
+
+#cntinfo{
+  display: flex;
+  padding: 3%;
+}
+
+#ad{
+  width: 33%;
+  border-right-width: 2px;
+  border-right-color: rgb(33, 194, 239);
+  font-family: cursive;
+  font-size: 150%;
+  text-align: center;
+}
+
+#no{
+  width: 33%;
+  font-family: cursive;
+  font-size: 150%;
+  text-align: center;
+  margin: 0%;
+}
+
+#em{
+  width: 33%;
+  font-family: cursive;
+  font-size: 150%;
+  text-align: center;
+}
+
+.background5{
+  background: rgba(0,0,0,0.7) url('Images/cntbck.jpg');
+  background-size: cover;
 }
