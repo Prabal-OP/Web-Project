@@ -25,7 +25,7 @@ li.navb{
 
 a.navb{
   text-decoration: none;
-  font-family: Georgia, serif;
+  font-family: cursive;
   color: white;
   text-align: center;
 }
@@ -56,4 +56,51 @@ a.navb:hover{
 
 #home{
   height: 100vh;
+}
+
+#greet{
+  text-align: left; 
+  padding: 11% 0% 1% 39%;
+  font-size: 380%;
+  font-family: 'Tangerine', cursive;
+  font-weight: bolder;
+}
+
+#nm{
+  text-align: center;
+  padding: 1.5% 7.2% 1% 0%;
+  font-size: 700%;
+  font-family: 'Tangerine', cursive;
+  font-weight: bolder;
+}
+
+#qts{
+  padding: 4% 0% 0% 20%;
+}
+
+.qt{
+  font-size: 160%;
+  font-family: 'Tangerine', cursive;
+  font-weight: bolder;
+}
+
+#a1{
+  animation: fade-in 3s ease-in-out 1s 1 forwards;
+}
+
+#a2{
+  animation: fade-in 3s ease-in-out 4s 1 forwards;
+}
+
+#a3{
+  animation: fade-in 3s ease-in-out 7s 1 forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
 }
