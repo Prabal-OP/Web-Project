@@ -26,7 +26,7 @@ li.navb{
 
 a.navb{
   text-decoration: none;
-  font-family: cursive;
+  font-family: cursive,Georgia, serif;
   color: white;
   text-align: center;
   font-size: 1vw;
@@ -149,14 +149,14 @@ a.navb:hover{
 #hd{
   padding: 0% 0% 1%;
   text-align: center;
-  font-family: cursive;
+  font-family: cursive,Georgia, serif;
   font-size: 5vw;
 }
 
 #info{
   padding: 0%;
   text-align: justify;
-  font-family: cursive;
+  font-family: cursive,Verdana, sans-serif;
   font-size: 1.5vw;
 }
 
@@ -170,19 +170,19 @@ a.navb:hover{
 }
 
 #head{
-  font-family: cursive;
+  font-family: cursive,Georgia, serif;
   font-size: 4.3vw;
   padding: 1% 0% 1% 0%;
 }
 
 .eduhd{
-  font-family: cursive;
+  font-family: cursive,Georgia, serif;
   font-size: 2.3vw;
   padding: 0%;
 }
 
 .eduli{
-  font-family: cursive;
+  font-family: cursive,Verdana, sans-serif;
   font-size: 1.3vw;
   padding: 1% 0% 1% 2%;
   list-style-type: disc;
@@ -202,13 +202,13 @@ a.navb:hover{
 }
 
 .skhd{
-  font-family: cursive;
+  font-family: cursive,Georgia, serif;
   font-size: 2.3vw;
   padding: 0%;
 }
 
 .skli{
-  font-family: cursive;
+  font-family: cursive,Verdana, sans-serif;
   font-size: 1.5vw;
   padding: 1% 0% 1% 2%;
   list-style-type: disc;
@@ -224,7 +224,7 @@ a.navb:hover{
 
 #cnthd{
   text-align: center;
-  font-family: cursive;
+  font-family: cursive,Georgia, serif;
   font-size: 3.2vw;
 }
 
@@ -237,7 +237,7 @@ a.navb:hover{
   width: 33%;
   border-right-width: 2px;
   border-right-color: rgb(33, 194, 239);
-  font-family: cursive;
+  font-family: cursive,Verdana, sans-serif;
   font-size: 1.7vw;
   text-align: center;
 }
@@ -246,13 +246,13 @@ a.navb:hover{
   width: 33%;
   font-family: cursive;
   font-size: 1.7vw;
-  text-align: center;
+  text-align: center,Verdana, sans-serif;
   margin: 0%;
 }
 
 #em{
   width: 33%;
-  font-family: cursive;
+  font-family: cursive,Verdana, sans-serif;
   font-size: 1.7vw;
   text-align: center;
 }
