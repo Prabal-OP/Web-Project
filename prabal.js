@@ -8,3 +8,7 @@ burger.addEventListener('click',()=>{
     logo.classList.toggle('opty');
     navbar.classList.toggle('h-nav');
 })
+
+window.addEventListener('load', function() {
+    document.body.classList.remove('no-transition');
+  });
