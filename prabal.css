@@ -304,6 +304,10 @@ a.navb:hover{
     -o-transition: none !important;
   }
 
+  html{
+    scroll-behavior: smooth;
+  }
+
   .navbar{
     flex-direction: column;
     max-height: 700px;
@@ -381,9 +385,37 @@ a.navb:hover{
     font-size: 8vh;
   }
 
+  #abtinfo{
+    padding: 0.5% 1% 9.5% 4%;
+  }
+
   #info{
     padding: 0% 3% 0% 0%;
     font-size: 3.2vh;
     text-align: center;
   }
+
+  #head{
+    font-size: 7.3vh;
+  }
+
+  .eduhd{
+    font-size: 3.2vh;
+  }
+
+  .eduli{
+    font-size: 2.2vh;
+    padding: 2% 0% 8% 6%;
+  }
+
+  .skhd{
+    font-size: 4.3vh;
+    padding: 4% 0% 0% 0% ;
+  }
+
+  .skli{
+    font-size: 2.1vh;
+    padding: 1% 0% 7% 6%;
+  }
+
 }
