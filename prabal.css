@@ -418,4 +418,40 @@ a.navb:hover{
     padding: 1% 0% 7% 6%;
   }
 
+  #cnthd{
+    font-size: 5.2vh;
+    padding: 4% 0% 0% 0%;
+  }
+
+  #cntinfo{
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  #no{
+    font-size: 2.7vh;
+    width: 100%;
+    padding: 0% 0% 6% 0%;
+  }
+
+  #ad{
+    font-size: 2.7vh;
+    width: 100%;
+    padding: 2% 0% 6% 0%;
+  }
+
+  #em{
+    font-size: 2.7vh;
+    width: 100%;
+    padding: 0% 0% 6%;
+  }
+
+  .icons{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 }
