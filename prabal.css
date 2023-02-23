@@ -50,7 +50,7 @@ a.navb:hover{
 .burger{
   position: absolute;
   cursor: pointer;
-  right: 5%;
+  right: 2%;
   top: 10px;
   display: none;
 }
@@ -299,11 +299,15 @@ a.navb:hover{
 @media only screen and (max-width: 1172px){
   .navbar{
     flex-direction: column;
+    max-height: 700px;
+    transition: max-height 0.7s ease-in-out;
   }
 
   #nav{
     flex-direction: column;
     align-self: center;
+    fill-opacity: inherit;
+    transition: opacity 0.7s ease-in-out;
   }
 
   li.navb{
@@ -318,6 +322,8 @@ a.navb:hover{
     align-self: center;
     display: flex;
     justify-content: center;
+    fill-opacity: inherit;
+    transition: opacity 0.7s ease-in-out;
   }
 
   .logo img{
@@ -329,10 +335,22 @@ a.navb:hover{
   }
 
   .h-nav{
-    height: 55px;
+    max-height: 55px;
   }
 
   .opty{
     opacity: 0;
+  }
+
+  #greet{
+
+  }
+
+  #nm{
+
+  }
+
+  .qt{
+
   }
 }
